@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: black; 
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +22,19 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+div.container.body-content div.jumbotron {
+    background-image: url('images/wardrobe.jpeg');
+    background-size: cover;
+}
+
+div.jumbotron#jumbotronOutfits {
+    background-color: white;
+    color: black;
+}
+
+div.row div.caption div.thumbnail  div.topsPhoto {
+    height: 150px;
+    width:100px;
 }
