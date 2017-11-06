@@ -4,6 +4,8 @@
     ViewBag.Title = "Index";
 }
 
+
+@*Index witll show clothing name to see details click details*@
 <h2>Index</h2>
 
 <p>
@@ -22,10 +24,7 @@
                     <div class="caption">
                         <img class="shoesPhoto"  style="width: 200px" src="@Html.DisplayFor(modelItem => item.Photo)" />
                         <h3>@Html.DisplayFor(modelItem => item.Name)</h3>
-                        <p>@Html.DisplayFor(modelItem => item.Type)</p>
-                        <p>@Html.DisplayFor(modelItem => item.Color) </p>
-                        <p>@Html.DisplayFor(modelItem => item.Occasion) </p>
-                        <p> @Html.DisplayFor(modelItem => item.Season)</p>
+                       
                         <p>
                             @Html.ActionLink("Edit", "Edit", new { id = item.ShoesID }) |
                             @Html.ActionLink("Details", "Details", new { id = item.ShoesID }) |
