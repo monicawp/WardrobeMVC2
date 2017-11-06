@@ -7,7 +7,7 @@
     <p class="lead">Helping people stay orginized and manage their clothes!</p>
     <p><a class="btn btn-primary" role="button" @Html.ActionLink("Add New Clothes", "Create", "Tops") </a> </p>
 </div>
-
+<img src />
 
 <div class="row">
     <div class="col-md-3">
@@ -62,50 +62,50 @@
         </div>
     </div>
 </div>
-<div id="theCarousel" class="carousel slide" data-ride="carousel">
-
-    <ol class="carousel-indicators">
-        <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#theCarousel" data-slide-to="1"></li>
-    </ol>
 
 
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <center><h3> Sand colored shirt, dark jean shorts, and sandals.</h3></center>
-            <center><h4>Going out</h4></center>
-            <div class="carousel-caption">
+
+<div id="text-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="row">
+        <div class="col-xs-offset-3 col-xs-6">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="carousel-content">
+                        <div>
+                            <h3>White Top, Dark Jeans, Grey Booties</h3>
+                            <h4>Going Out</h4>
+                            <h4>Fall</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                           <h3>Maroon Top, Light Jean Shorts, Sandals</h3>
+                            <h4>Hanging Out</h4>
+                            <h4>Summer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel-content">
+                        <div>
+                          <h3>Grey Blouse, Black Pants, Grey Boots</h3>
+                            <h4>Business Casual</h4>
+                            <h4>Spring/Fall</h4>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <div class="item">
-            <center><h3>White blouse, black pants, leaf necklace, and booties.</h3></center>
-            <center><h4>Formal</h4></center>
-            <div class="carousel-caption">
-
-            </div>
-        </div>
-
-        <div class="item">
-            <center><h3>Grey top, dark jeans, tennis shoes</h3></center>
-            <center><h4>Casual</h4></center>
-            <div class="carousel-caption">
-
-            </div>
-        </div>
-
     </div>
-
-
-
-    <!-- functioning carousel-->
-
-
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">PREVIOUS</span>
+    <!-- Controls --> <a class="left carousel-control" href="#text-carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+    <a class="right carousel-control" href="#text-carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
     </a>
+
 </div>

@@ -2,12 +2,14 @@
     padding-top: 50px;
     padding-bottom: 20px;
     background-color: black; 
+    font-family: 'Handlee', cursive;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    font-family: 'Handlee', cursive;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -27,6 +29,7 @@ textarea {
 div.container.body-content div.jumbotron {
     background-image: url('images/wardrobe.jpeg');
     background-size: cover;
+    font-family: 'Handlee', cursive;
 }
 
 div.jumbotron#jumbotronOutfits {

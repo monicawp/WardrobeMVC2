@@ -1,13 +1,12 @@
-﻿@model WardrobeMVC2.Models.Bottom
+﻿@model WardrobeMVC2.Models.Accessory
 
 @{
     ViewBag.Title = "Details";
 }
 
-
 <h2>Details</h2>
 <div>
-    <h4>My Bottoms</h4>
+    <h4>My Accessories</h4>
     <hr />
     <div class="row">
 
@@ -21,7 +20,7 @@
                     <p>@Html.DisplayFor(model => model.Occasion) </p>
                     <p> @Html.DisplayFor(model => model.Season)</p>
                     <p>
-                        @Html.ActionLink("Edit", "Edit", new { id = Model.BottomsID }) |
+                        @Html.ActionLink("Edit", "Edit", new { id = Model.AccessoriesID }) |
                         @Html.ActionLink("Back to List", "Index")
                     </p>
                 </div>
@@ -30,3 +29,5 @@
     </div>
 
 </div>
+
+
